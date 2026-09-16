@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+  "name": "Paste Image Anywhere",
+  "version": "1.0.0",
+  "description": "Cole imagens (Ctrl+V) em campos de upload que normalmente não permitem — converte o clipboard em File e injeta no input.",
+  "permissions": ["clipboardRead", "activeTab", "scripting"],
+  "host_permissions": [
+    "https://parceiros.cplug.com.br/*",
+    "https://cdn.octadesk.com/*",
+    "https://meajuda.saipos.com/*",
+    "https://conta.saipos.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://parceiros.cplug.com.br/*",
+        "https://cdn.octadesk.com/*",
+        "https://meajuda.saipos.com/*",
+        "https://conta.saipos.com/*"
+      ],
+      "all_frames": true,
+      "match_about_blank": true,
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Paste Image Anywhere"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
