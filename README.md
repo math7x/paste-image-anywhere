@@ -21,3 +21,7 @@ A extensão captura o evento de colagem, converte a imagem da área de transfer�
 4. Selecione a pasta deste projeto.
 
 Tecnologias principais: JavaScript, Clipboard API, File API e Chrome Extensions API.
+
+## Autoria
+
+Desenvolvido por [math7x](https://github.com/math7x).

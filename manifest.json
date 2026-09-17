@@ -3,6 +3,7 @@
   "name": "Paste Image Anywhere",
   "version": "1.0.0",
   "description": "Cole imagens (Ctrl+V) em campos de upload que normalmente não permitem — converte o clipboard em File e injeta no input.",
+  "author": "math7x",
   "permissions": ["clipboardRead", "activeTab", "scripting"],
   "host_permissions": [
     "https://parceiros.cplug.com.br/*",
