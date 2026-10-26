@@ -1,0 +1,3 @@
+﻿Extensão - colar imagens em campos de envio
+
+Permite usar Ctrl+V para colocar uma imagem da área de transferência em campos de upload de páginas compatíveis. Converte a imagem em arquivo para que o formulário reconheça o envio.
